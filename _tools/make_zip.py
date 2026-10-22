@@ -22,7 +22,9 @@ SKIP_FILES = {"config.json", "config.json.tmp", "config.json.broken",
               "config.json.bak-before-2.1", "config.json.bak-before-2.4",
               "app.log", "crash.log", "gamma_base.json",
               # 体检工具的画面基线：也是本机专属，拿到别的机器上会把人画面改歪
-              "checkup_base.json", "build_log.txt"}
+              "checkup_base.json", "build_log.txt",
+              # 发布脚本（连本机凭据/桌面路径），不随源码包走
+              "gh_push.py", "gh_release.py"}
 SKIP_EXT = (".pyc", ".pyo", ".spec", ".lnk", ".log")
 
 
