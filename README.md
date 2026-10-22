@@ -20,8 +20,8 @@ Windows 上很多外接显示器有好几套"情景模式"（阅读、电影、F
 - 打开屏效助手自己的界面 → 什么都不做，保持当前模式
 
 > **只想用，不想折腾源码？** 去 [Releases](https://github.com/duoemma/ScreenMode/releases)
-> 下 `屏效助手.exe`，双击就能跑 —— 不用装 Python，不用装任何运行库。
-> 想先确认自己这块屏行不行，再下 `屏幕体检.exe`（独立小工具，可选）。
+> 下 `ScreenMode-x.y.z.exe`，双击就能跑 —— 不用装 Python，不用装任何运行库。
+> 想先确认自己这块屏行不行，再下 `ScreenCheckup-x.y.z.exe`（独立小工具，可选）。
 
 <img src="docs/screenshot-status.png" width="880" alt="运行状态">
 
@@ -388,13 +388,13 @@ Windows 上很多外接显示器有好几套"情景模式"（阅读、电影、F
 
 **绿色程序：双击 `屏效助手.exe` 就运行，没有安装步骤。**
 
-从 [Releases](https://github.com/duoemma/ScreenMode/releases) 下载 `屏效助手.exe`
-（或者从[源码自己打包](#打包)）。两个 exe 分别是什么：
+从 [Releases](https://github.com/duoemma/ScreenMode/releases) 下载最新的两个附件
+（或者从[源码自己打包](#打包)）。文件名带版本号，下下来随便改名都不影响运行：
 
-| 文件 | 干什么 | 要不要下 |
-| --- | --- | --- |
-| `屏效助手.exe` | 主程序，托盘常驻、自动切模式 | **要**（约 16 MB） |
-| `屏幕体检.exe` | 装之前先查这台屏行不行，只读不改 | 可选（约 15 MB） |
+| 附件 | 就是 | 干什么 | 要不要下 |
+| --- | --- | --- | --- |
+| `ScreenMode-x.y.z.exe` | 屏效助手.exe | 主程序，托盘常驻、自动切模式 | **要**（约 16 MB） |
+| `ScreenCheckup-x.y.z.exe` | 屏幕体检.exe | 先用它查这台屏行不行，只读不改 | 可选（约 15 MB） |
 
 > **第一次打开会被 Windows 拦一下**：弹出"Windows 已保护你的电脑"是因为这个 exe
 > 没有买代码签名证书（个人项目常见）。点 **更多信息 → 仍要运行** 即可。
